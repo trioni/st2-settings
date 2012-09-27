@@ -1,0 +1,18 @@
+{
+	"files":
+	{
+		"backbone": "http://backbonejs.org/backbone.js",
+		"handlebars": "http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js",
+		"html5.js": "http://html5shim.googlecode.com/svn/trunk/html5.js",
+		"jquery": "http://code.jquery.com/jquery.min.js",
+		"normalize": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
+		"requirejs": "http://requirejs.org/docs/release/2.0.4/comments/require.js",
+		"requirejs-min": "http://requirejs.org/docs/release/2.0.4/minified/require.js",
+		"underscore": "http://documentcloud.github.com/underscore/underscore.js"
+	},
+	"packages":
+	{
+		"codeigniter": "http://codeigniter.com/download.php",
+		"html5-boilerplate": "http://github.com/h5bp/html5-boilerplate/zipball/v2.0stripped"
+	}
+}

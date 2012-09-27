@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+define([
+    ${1:'backbone'}
+], function(${2:Backbone}) {
+    var ${3:Foo} = ${4:Backbone.Model};
+    return Foo;
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>amd</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.JavaScript</scope> -->
+</snippet>

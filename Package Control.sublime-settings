@@ -1,0 +1,25 @@
+{
+	"auto_upgrade_last_run": 1348727507,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"ApacheConf.tmLanguage",
+		"Backbone.js",
+		"Backbone.Marionette",
+		"FTPSync",
+		"Gist",
+		"HTML5",
+		"Http Requester",
+		"INI",
+		"LESS",
+		"Nettuts+ Fetch",
+		"Open Recent Files",
+		"Package Control",
+		"Prefixr",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"Web Encoders",
+		"ZenCoding"
+	]
+}
