@@ -3,8 +3,9 @@
 define([
     ${1:'backbone'}
 ], function(${2:Backbone}) {
-    var ${3:Foo} = ${4:Backbone.Model};
-    return Foo;
+    'use strict';
+    var ${3:Foo} = ${4:Backbone.Marionette.};
+    return ${3:Foo};
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

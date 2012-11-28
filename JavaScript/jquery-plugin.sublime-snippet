@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+var ${1:namespace} = ${1:namespace} || {};
+(function( ${2:jQueryAlias}, ns, window, document, undefined ){
+    'use strict';
+    var ${4:MyClass} = function( el, ${6:mixins} ) {
+        ${2:jQueryAlias}.extend(${4:MyClass}.prototype, mixins);
+        this.${2:jQueryAlias}el = ${2:jQueryAlias}(el);
+        return this;
+    };
+
+    ns.${4:MyClass} = ${4:MyClass};
+
+    ${2:jQueryAlias}.fn.${3:pluginName} = function(options) {
+        if(this.length) {
+            var items = [], item;
+            this.each(function() {
+                item = new ${4:MyClass}( this ${5:, options.mixins} );
+                items.push(item);
+            });
+            return ${2:jQueryAlias}(items);
+        }
+    };    
+}( jQuery, ${1:namespace}, window ));
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>plug</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>

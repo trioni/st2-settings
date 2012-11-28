@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1348727507,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -11,6 +11,7 @@
 		"HTML5",
 		"Http Requester",
 		"INI",
+		"Laravel-Blade",
 		"LESS",
 		"Nettuts+ Fetch",
 		"Open Recent Files",
@@ -18,8 +19,11 @@
 		"Prefixr",
 		"SCSS",
 		"SideBarEnhancements",
+		"SublimeBlockCursor",
 		"SublimeCodeIntel",
+		"SublimeLinter",
 		"Web Encoders",
+		"Xdebug",
 		"ZenCoding"
 	]
 }
