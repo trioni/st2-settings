@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QUnit - ${1:name}</title>
+    <link rel="stylesheet" href="${2:components}/qunit/qunit.css" type="text/css" media="screen">
+    <script type="text/javascript" src="../${2:components}/qunit/qunit.js"></script>
+    <script type="text/javascript" src="../${2:components}/sinon/lib/sinon.js"></script>
+
+    <!-- Your project file goes here -->
+    <script type="text/javascript" src="../${3:vendor}/jquery/jquery-${4:version}.js"></script>
+
+    <!-- Your tests file goes here -->
+    <script type="text/javascript" src="../${5:full_path}.js"></script>
+    <script type="text/javascript" src="test-${1:name}.js"></script>
+</head>
+<body>
+    <h1 id="qunit-header">QUnit Test Suite</h1>
+    <h2 id="qunit-banner"></h2>
+    <div id="qunit-testrunner-toolbar"></div>
+    <h2 id="qunit-userAgent"></h2>
+    <ol id="qunit-tests"></ol>
+</body>
+</html>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>qunit</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.html</scope> -->
+</snippet>

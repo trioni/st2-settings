@@ -1,5 +1,6 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"draw_white_space": "all",
 	"font_face": "Droid Sans Mono",
 	"font_size": 16.0,
 	"ignored_packages":
@@ -7,8 +8,5 @@
 	],
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": "false",
-    // Set to "none" to turn off drawing white space, "selection" to draw only the
-    // white space within the selection, and "all" to draw all white space
-    "draw_white_space": "all"
+	"word_wrap": false
 }
