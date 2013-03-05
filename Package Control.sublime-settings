@@ -7,7 +7,6 @@
 		"Backbone.js",
 		"Backbone.Marionette",
 		"BracketHighlighter",
-		"Djaneiro",
 		"EditorConfig",
 		"FTPSync",
 		"Gist",

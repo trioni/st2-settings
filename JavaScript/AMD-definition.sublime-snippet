@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[
-define([
-    ${1:'backbone'}
-], function(${2:Backbone}) {
+/*global define */
+define([${1:'backbone'}], function(${2:Backbone}) {
     'use strict';
     var ${3:Foo} = ${4:Backbone.Marionette.};
     return ${3:Foo};
