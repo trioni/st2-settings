@@ -4,10 +4,9 @@
 	[
 		"AdvancedNewFile",
 		"ApacheConf.tmLanguage",
-		"Backbone.js",
-		"Backbone.Marionette",
 		"BracketHighlighter",
 		"EditorConfig",
+		"Emmet",
 		"FTPSync",
 		"Gist",
 		"HTML5",
@@ -15,17 +14,14 @@
 		"INI",
 		"Laravel-Blade",
 		"LESS",
-		"Nettuts+ Fetch",
 		"Open Recent Files",
 		"Package Control",
-		"Prefixr",
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeBlockCursor",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"Web Encoders",
-		"Xdebug",
-		"ZenCoding"
+		"Xdebug"
 	]
 }
