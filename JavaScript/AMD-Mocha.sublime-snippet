@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+/*global define, describe, it, beforeEach */
+define([
+    'jquery',
+    'chai',
+    ${1:'ModuleToTest'}
+], function(${2:jQueryAlias}, chai, ${3:ModuleName}) {
+    'use strict';
+
+    var expect = chai.expect;
+
+    describe('${3:ModuleName}',function() {
+        describe('${4:Test}', function() {
+            //${5:WriteSomeTets}
+        });
+    });
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mocha</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

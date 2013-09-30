@@ -1,10 +1,26 @@
 <snippet>
     <content><![CDATA[
 /*global define */
-define([${1:'backbone'}], function(${2:Backbone}) {
+define([
+    ${1:'jquery'}
+], function(${2:jquery}) {
     'use strict';
-    var ${3:Foo} = ${4:Backbone.Marionette.};
-    return ${3:Foo};
+    var ${3:Foo} = function() {
+        this.initialize();
+    };
+
+    ${3:Foo}.prototype = {
+        initialize: function() {
+            ${4://Do stuff}
+        }
+    };
+
+    var Module = {
+        initialize: function() {
+            Module.instance = new ${3:Foo}();
+        }
+    };
+    return Module;
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

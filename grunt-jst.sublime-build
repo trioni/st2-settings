@@ -1,3 +1,9 @@
 {
-    "cmd": ["grunt","jst", "--no-color"]
+    "cmd": ["grunt","jst", "--no-color"],
+    "variants": [
+        { 
+            "cmd": ["grunt","jst:searchbox","--no-color"],
+            "name": "JST Searchbox"
+        }
+    ]
 }

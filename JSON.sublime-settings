@@ -1,6 +1,7 @@
 {
-    "extensions":
-    [
-        "settings"
-    ]
+	"extensions":
+	[
+		"settings",
+		".ftppass"
+	]
 }
