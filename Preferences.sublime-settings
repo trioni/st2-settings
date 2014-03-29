@@ -1,6 +1,16 @@
 {
 	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"default_font_size": 16,
 	"draw_white_space": "all",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		".sass-cache"
+	],
 	"font_face": "Menlo",
 	"font_size": 16.0,
 	"ignored_packages":

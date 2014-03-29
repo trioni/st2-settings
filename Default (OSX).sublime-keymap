@@ -1,5 +1,6 @@
 [
   // { "keys": ["super+minus"], "command": "toggle_comment", "args": { "block": false } },
   { "keys": ["ctrl+d"], "command": "delete_word", "args": { "forward": true, "sub_words": true } },
-  { "keys": ["super+shift+r"], "command": "reindent" , "args": {"single_line": false } }
+  { "keys": ["super+shift+r"], "command": "reindent" , "args": {"single_line": false } },
+  { "keys": ["super+0"], "command": "reset_font_size_to_user_defaults" }
 ]
